@@ -1,0 +1,23 @@
+{
+    "name": "Distractify",
+    "description": "Get less done!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "main.js"
+    },
+    "permissions": [
+        "activeTab",
+        "declarativeContent",
+        "tabs",
+        "storage"
+    ],
+    "action": {
+        "default_icon": {
+            "32": "potato.png"
+        },
+        "default_title": "distract me!",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html"
+  }
