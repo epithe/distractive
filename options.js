@@ -6,11 +6,11 @@ function fetchStored() {
         console.log("Options storage request:", result.distractingSites);
         optionsDistractingSites = result.distractingSites;
     })
-    setTimeout(optionsLoop, 500);
+    setTimeout(optionsLoop, 100);
 }
 
 function optionsLoop() {
-    let siteList = document.getElementById("site-list")
+    let siteList = document.getElementById("d-site-list")
     for (let i = 0; i < optionsDistractingSites.length; i++) {
         let site = document.createElement('li');
         site.innerText = optionsDistractingSites[i];

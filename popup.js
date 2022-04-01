@@ -16,4 +16,4 @@ function slowerButton() {
     distractButton.addEventListener("click", redirect());
 }
 
-setTimeout(slowerButton, 600);
+setTimeout(slowerButton, 200);

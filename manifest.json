@@ -1,5 +1,5 @@
 {
-    "name": "Distractify",
+    "name": "Distractive",
     "description": "Get less done!",
     "version": "1.0",
     "manifest_version": 3,
@@ -10,7 +10,8 @@
         "activeTab",
         "declarativeContent",
         "tabs",
-        "storage"
+        "storage",
+        "webNavigation"
     ],
     "action": {
         "default_icon": {

@@ -1,5 +1,33 @@
+body {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
 button {
   background-color: purple;
   color: white;
   border-radius: 5px;
 }
+
+h1 {
+  font-size: 45px;
+}
+
+.site-list {
+  display: block;
+  float: left;
+  width: 400px;
+}
+
+#input-box {
+  margin-bottom: 50px;
+}
+
+/* div {
+  display: block;
+} */
+
+/* #distracting_sites {
+  float: left;
+  width: 400px;
+} */
